@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <input id="input-outside" type="color" />
+    <div class="container">
+      <input id="input-inside" type="color" />
+      <h2 style="display: inline-block">League of Legends Rank Sistemi</h2>
+      <button
+        id="rankbutton"
+        style="position: relative; right: 55%; padding: 15px; font-size: 15px"
+      >
+        Rasgele Rank Seçmek İçin Tıkla
+      </button>
+      <ul id="sortable">
+        <div>
+          <h2>Iron</h2>
+
+          <li class="ui-state-default"><img src="./images/iron.png" /></li>
+        </div>
+        <div>
+          <h2>Bronze</h2>
+
+          <li class="ui-state-default"><img src="./images/bronze.png" /></li>
+        </div>
+        <div>
+          <h2>Silver</h2>
+
+          <li class="ui-state-default"><img src="./images/silver.png" /></li>
+        </div>
+        <div>
+          <h2>Gold</h2>
+
+          <li class="ui-state-default"><img src="./images/gold.png" /></li>
+        </div>
+        <div>
+          <h2>Platinum</h2>
+
+          <li class="ui-state-default"><img src="./images/platinum.png" /></li>
+        </div>
+        <div>
+          <h2>Diamond</h2>
+
+          <li class="ui-state-default"><img src="./images/diamond.png" /></li>
+        </div>
+        <div>
+          <h2>Master</h2>
+          <li class="ui-state-default"><img src="./images/master.png" /></li>
+        </div>
+        <div>
+          <h2>Grandmaster</h2>
+          <li class="ui-state-default">
+            <img src="./images/grandmaster.png" />
+          </li>
+        </div>
+        <div>
+          <h2>Challenger</h2>
+          <li class="ui-state-default">
+            <img src="./images/challenger.png" />
+          </li>
+        </div>
+      </ul>
+    </div>
+    <div id="container1">
+      <ul>
+        <li><img src="./images/challenger.png" /></li>
+      </ul>
+    </div>
+  </body>
+</html>
